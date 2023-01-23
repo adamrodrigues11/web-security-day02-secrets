@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using Secrets.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 var adminUserName = builder.Configuration["adminLogin:Username"];
 var adminPassword = builder.Configuration["adminLogin:Password"];
